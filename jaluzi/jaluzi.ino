@@ -1,3 +1,5 @@
+#include <Arduino.h>
+
 #include <ESP8266WiFi.h>        //Содержится в пакете
 #include <ESP8266WebServer.h>   //Содержится в пакете
 #include <ESP8266SSDP.h>        //Содержится в пакете

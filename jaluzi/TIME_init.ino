@@ -1,3 +1,5 @@
+#include <Arduino.h>
+
 void Time_init(int zone) {
  // Инициализация UDP соединения с NTP сервером
  configTime(zone * 3600, 0, "pool.ntp.org", "ru.pool.ntp.org");

@@ -1,3 +1,5 @@
+#include <Arduino.h>
+
 void WIFIAP_Client() {
  if (_setAP == "0") {
   WiFi.mode(WIFI_STA);

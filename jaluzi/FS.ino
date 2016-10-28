@@ -1,3 +1,5 @@
+#include <Arduino.h>
+
 // Здесь функции для работы с файловой системой
 String getContentType(String filename) {
   if (HTTP.hasArg("download")) return "application/octet-stream";

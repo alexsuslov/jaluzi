@@ -1,3 +1,5 @@
+#include <Arduino.h>
+
 bool loadConfig() {
   File configFile = SPIFFS.open("/config.json", "r");
   if (!configFile) {

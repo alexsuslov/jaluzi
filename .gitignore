@@ -1,9 +1,4 @@
-.DS_Store
-applet
-application.linux32
-application.linux64
-application.windows32
-application.windows64
-application.macosx
-/data/config.json
-/jaluzi.cpp.generic.bin
+.pioenvs
+.clang_complete
+.gcc-flags.json
+.piolibdeps

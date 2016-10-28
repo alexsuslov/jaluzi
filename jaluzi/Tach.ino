@@ -1,3 +1,5 @@
+#include <Arduino.h>
+
 // Выполняется при нажатии на кнопку
 void Tach_0() {
  static unsigned long millis_prev;

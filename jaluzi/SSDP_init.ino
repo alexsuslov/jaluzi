@@ -1,3 +1,5 @@
+#include <Arduino.h>
+
 void SSDP_init(void) {
   SSDP.setSchemaURL("description.xml");
   SSDP.setHTTPPort(80);

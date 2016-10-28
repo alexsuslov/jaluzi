@@ -1,3 +1,5 @@
+#include <Arduino.h>
+
 // Перезагрузка модуля
 void handle_Restart() {
 String restart=HTTP.arg("device");
